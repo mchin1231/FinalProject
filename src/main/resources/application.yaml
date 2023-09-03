@@ -1,0 +1,10 @@
+spring:
+   datasource:
+     username: auto_parts
+     password: auto_parts
+     url: jdbc:mysql://localhost:3306/auto_parts
+     
+   jpa:
+     hibernate:
+       ddl-auto: update
+     show-sql: true
